@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+
+.card{
+    width: 380px;
+    height: 560px;
+    background-color: rgb(123, 17, 17);
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 16px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 40px rgba(149, 9, 9, 0.6); 
+}
+
+.avarta{
+    margin-top: 60px;
+}
+.avarta img{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;   
+  border: 3px solid hsl(0, 93%, 45%);
+  margin-bottom: 10px;
+  margin: 20px auto;  
+ transition: all 0.4s ease;
+
+}
+.avarta img:hover{
+    transform: translateY(-10px);
+     box-shadow: 0 10px 15px rgba(18, 3, 3, 0.3);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #401a1a, #19346e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desciption{
+    padding: 20px;
+
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin: auto;
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}   
+.job{
+    font-size: 20px;
+    font-weight:bold ;
+    color: yellow;  
+     text-align: center;
+     margin-bottom:7px;
+     margin-top: 20px;
+}
+.jobdecription{
+    font-size: 18px;
+    margin: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 29px; 
+  margin-top: 25px;
+}
+
+.icon button{
+    width: 50px;
+    height: 50px;
+    border:none;
+    justify-content: center;
+    background-color: #352d2d;
+    transition: all 0.3s ease;
+    box-shadow:0 0 10px rgba(18, 3, 3, 0.3);
+}
+.facebook{
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(254, 254, 254);
+
+}
+.facebook:hover{
+    transform: translateY(-5px);
+    color: grey;
+}
+.intagram{
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(254, 254, 254);
+}
+.intagram :hover{
+    transform: translateY(-5px);
+    color: grey;
+}
+.email{
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(254, 254, 254);
+}
+.email:hover{
+    transform: translateY(-5px);
+    color: grey;
+}
