@@ -26,7 +26,7 @@ button {
 
 .card{
     width: 260px; 
-    height: 380px;
+    height: 390px;
     background-color: rgb(123, 17, 17);
     margin: auto;
     margin-top: 100px;
@@ -42,16 +42,16 @@ button {
 }
 
 .avarta{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 .avarta img{
   width: 120px;
   height: 120px;
   border-radius: 50%;   
   border: 3px solid hsl(0, 93%, 45%);
-  margin-bottom: 0px;
-  margin: 7px auto;  
- transition: all 0.4s ease;
+  margin: 5px auto;  
+ transition: all 0.4s ease; 
 
 }
 .avarta img:hover{
@@ -74,7 +74,6 @@ body {
 }
 .name{
     font-size: 28px;
-    margin-top: 10px;
     font-weight: bold;
     margin-bottom: 10px;
     margin: auto;
