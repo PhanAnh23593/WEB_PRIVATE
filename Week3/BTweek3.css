@@ -25,11 +25,11 @@ button {
 }
 
 .card{
-    width: 380px;
-    height: 560px;
+    width: 260px; 
+    height: 380px;
     background-color: rgb(123, 17, 17);
     margin: auto;
-    margin-top: 130px;
+    margin-top: 100px;
     border-radius: 16px;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,15 +42,15 @@ button {
 }
 
 .avarta{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .avarta img{
-  width: 170px;
-  height: 170px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;   
   border: 3px solid hsl(0, 93%, 45%);
-  margin-bottom: 10px;
-  margin: 20px auto;  
+  margin-bottom: 0px;
+  margin: 7px auto;  
  transition: all 0.4s ease;
 
 }
@@ -69,29 +69,29 @@ body {
   justify-content: center;
 }
 .desciption{
-    padding: 20px;
+    padding: 10px;
 
 }
 .name{
-    font-size: 35px;
+    font-size: 28px;
+    margin-top: 10px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin: auto;
     color: red;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }   
 .job{
-    font-size: 20px;
+    font-size: 16px;  
     font-weight:bold ;
     color: yellow;  
      text-align: center;
-     margin-bottom:7px;
-     margin-top: 20px;
+     margin: 6px;
 }
 .jobdecription{
-    font-size: 18px;
-    margin: 20px;
+    font-size: 14px;
+    margin: 19px;
     color: aliceblue;
     text-align: center;
     font-weight: bold;
@@ -99,13 +99,13 @@ body {
 .icon{
   display: flex;
   justify-content: center;
-  gap: 29px; 
-  margin-top: 25px;
+  gap: 22px; 
+  margin-top: 22px;
 }
 
 .icon button{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border:none;
     justify-content: center;
     background-color: #352d2d;
@@ -113,7 +113,7 @@ body {
     box-shadow:0 0 10px rgba(18, 3, 3, 0.3);
 }
 .facebook{
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 50%;
     color: rgb(254, 254, 254);
 
@@ -123,7 +123,7 @@ body {
     color: grey;
 }
 .intagram{
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 50%;
     color: rgb(254, 254, 254);
 }
@@ -132,7 +132,7 @@ body {
     color: grey;
 }
 .email{
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 50%;
     color: rgb(254, 254, 254);
 }
