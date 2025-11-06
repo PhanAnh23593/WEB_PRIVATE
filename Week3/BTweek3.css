@@ -107,7 +107,7 @@ body {
     height: 40px;
     border:none;
     justify-content: center;
-    background-color: #352d2d;
+    background-color: #e63535;
     transition: all 0.3s ease;
     box-shadow:0 0 10px rgba(18, 3, 3, 0.3);
 }
