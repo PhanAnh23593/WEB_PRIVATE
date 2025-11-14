@@ -1,0 +1,275 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #d2e2ff; 
+    color:#e34444;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.product-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden; 
+}
+
+.product-image {
+    width: 100%;
+    display: block;
+}
+
+.product-content {
+    padding: 25px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #27ae60; 
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-bottom: 20px;
+    color: #f39c12; 
+    font-size: 0.9rem;
+}
+
+.rating span {
+    color: #777;
+    margin-left: 8px;
+}
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.tag {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.85rem;
+    color: #555;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tag i {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.add-to-cart-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-btn i {
+    margin-right: 8px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #c0392b;
+}
+
+.details-section {
+    margin-top: 30px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.text-orange {
+    color: #e67e22;
+}
+
+.text-red {
+    color: #c0392b;
+}
+
+
+.details-section ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.details-section ul li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.icon-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.icon-list i {
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+.info-list i { color: #3498db; }
+.check-list i { color: #3498db; }
+.care-list i { color: #f39c12; }
+.special-list i { color: #e74c3c; }
+
+.social-share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-share h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-btn {
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.social-btn i {
+    margin-right: 6px;
+}
+
+.social-btn.facebook { background-color: #3b5998; }
+.social-btn.twitter { background-color: #1da1f2; }
+.social-btn.instagram { background-color: #e1306c; }
+
+/* Form đánh giá */
+.review-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Quan trọng để padding không làm tăng width */
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.submit-review-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-review-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Sản phẩm liên quan */
+.related-products {
+    background-color: #fafafa;
+    padding: 25px;
+    border-top: 1px solid #eee;
+}
+
+.related-products h2 {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+.related-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.related-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.related-item .item-info {
+    flex-grow: 1;
+}
+
+.related-item .item-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.related-item .item-price {
+    font-weight: 700;
+    color: #27ae60;
+    font-size: 1.1rem;
+}
