@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.logo1{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+    font-size:30px;
+}
+.menu1{
+    list-style-type: none;
+    display: flex;  
+    font-size:smaller;  
+}
+.menu1 li a{
+    text-decoration: none;
+    padding-right: 30px;
+    color:#555555;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+.menu1 li a:hover{
+    color: #E98F45;
+}
+.search button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    transition:background-color 0.3s ease;
+}
+.search button:hover{
+    background-color: rgb(72, 68, 68);
+}
+.search span{
+    padding:0 10px;
+}
+.content{
+    padding-top:80px;
+}
+.content1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg");
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ct1 .title{
+    font-size: 70px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.ct1 p{
+    max-width: 500px;
+    text-align: center;
+}
+.ct1 button{
+    background-color: #E98F45;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    transition:background-color 0.3s ease;
+
+}
+.ct1 button:hover{
+    background-color: #d87829;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #EBF5FE;
+}
+.small{
+    background-color:#FCE0D4;
+    color:#EB9045;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+h2{
+    font-size: 40px;
+}
+.content2_1 p{
+    max-width: 500px;
+    padding-top: 20px;
+}
+.more{
+    background-color: #EBF5FE;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1.5px solid rgb(148, 147, 147);
+    transition:background-color 0.2s ease;
+    margin-top: 30px;
+}
+.more:hover{
+    background-color:#494B4C;
+    color:white;
+}
+.content2_2{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+.content2_2 ul{
+    list-style-type: none;
+}
+.content2_2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 60px;
+    width:100%;
+    display:block;
+    border-bottom: 1px solid rgb(244, 242, 242);
+    transition:background-color 0.3s ease;
+}
+.content2_2 ul li a:hover{
+    background-color: #efefef;
+}
+.content2_2 i{
+    padding: 0 10px;
+    color:#E98F45;
+}
+.content3{
+    padding: 0 100px;
+}
+.title_ct3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.title_ct3 span i{
+    background-color: #EBF5FE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition:background-color 0.3s ease;
+}
+.title_ct3 span i:hover{
+    background-color: #E98F45;
+}
+.card_ct3{
+    display:flex;
+    justify-content: space-between;
+}
+.card3{
+    max-width: 500px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card3 img{
+  width:100%;
+  max-height:200px;
+  display: block;
+  object-fit: cover;
+}
+.description{
+    padding: 20px;
+}
+.description p{
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    color:#555555;
+}
+.tomtat{
+    font-size: 12px;
+    font-weight: bold;
+    color:#555555;
+}
+.description button{
+    color: black;
+    font-weight: bold;
+    padding: 10px 100px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid rgb(195, 193, 193);
+    background-color: white;
+    transition:background-color 0.3s ease;
+}
