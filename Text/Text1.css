@@ -1,9 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  /* Xóa margin, padding và border mặc định */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+
 header{
     display: flex;
     justify-content: space-around;
@@ -11,7 +32,7 @@ header{
     padding: 20px;
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: rgb(54, 18, 18)
 }
 .logo1{
     text-decoration: none;
@@ -24,55 +45,64 @@ header{
     display: flex;  
     font-size:smaller;  
 }
+
 .menu1 li a{
     text-decoration: none;
     padding-right: 30px;
-    color:#555555;
+    color:#ffffff;
     font-weight: bold;
     transition: 0.3s ease;
 
 }
 .menu1 li a:hover{
     color: #E98F45;
+
+
+
+
 }
-.search button{
-    background-color: black;
-    color: white;
+.SignUp button{
+    background-color: rgb(189, 189, 26);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 20px;
     font-weight: bold;
     border: none;
     transition:background-color 0.3s ease;
 }
+
 .search button:hover{
     background-color: rgb(72, 68, 68);
 }
 .search span{
     padding:0 10px;
 }
+
+
 .content{
     padding-top:80px;
 }
 .content1{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg");
+    padding: 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("coffee_image2.png");
     background-size: cover;
     height: 90vh;
     color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .ct1 .title{
-    font-size: 70px;
+    margin-top: 4%;
+    font-size: 130px;
     font-weight: 800;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 20px;
-}
+}   
 .ct1 p{
-    max-width: 500px;
-    text-align: center;
+    max-width: 800px;
 }
 .ct1 button{
     background-color: #E98F45;
@@ -82,22 +112,26 @@ header{
     padding: 10px 20px;
     border-radius: 20px;
     display: block;
-    margin: 20px auto;
+    margin-top: 20px;
     transition:background-color 0.3s ease;
 
 }
 .ct1 button:hover{
     background-color: #d87829;
 }
+
+
+
+
     .content2{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 50px 100px;
-        background-color: #EBF5FE;
+        background-color: #ffffff;
     }
     .small{
-        background-color:#FCE0D4;
+        background-color:#ffffff;
         color:#EB9045;
         font-size: 13px;
         font-weight: bold;
@@ -112,7 +146,7 @@ header{
         padding-top: 20px;
     }
     .more{
-        background-color: #EBF5FE;
+        background-color: #ffd500;
         color: black;
         font-weight: bold;
         padding: 10px;
@@ -122,7 +156,7 @@ header{
         margin-top: 30px;
     }
     .more:hover{
-        background-color:#494B4C;
+        background-color:#e69807;
         color:white;
     }
     .content2_2{
@@ -150,66 +184,21 @@ header{
         padding: 0 10px;
         color:#E98F45;
 }
-.content3{
-    padding: 0 100px;
+
+.content3 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     flex-direction: column;
 }
-.title_ct3{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-.title_ct3 span i{
-    background-color: #EBF5FE;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display:inline-flex;
+
+.Quality {
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    transition:background-color 0.3s ease;
 }
-.title_ct3 span i:hover{
-    background-color: #E98F45;
-}
-.card_ct3{
-    display:flex;
-    justify-content: space-between;
-}
-.card3{
-    max-width: 500px;
-    border: 1px solid rgb(217, 217, 217);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.card3 img{
-  width:100%;
-  max-height:200px;
-  display: block;
-  object-fit: cover;
-}
-.description{
-    padding: 20px;
-}
-.description p{
-    font-size: 15px;
-    padding-top: 15px;
-    margin-bottom: 30px;
-    color:#555555;
-}
-.tomtat{
-    font-size: 12px;
-    font-weight: bold;
-    color:#555555;
-}
-.description button{
-    color: black;
-    font-weight: bold;
-    padding: 10px 100px;
-    border-radius: 20px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    border: 1px solid rgb(195, 193, 193);
-    background-color: white;
-    transition:background-color 0.3s ease;
-}
+
+
+
+
+
+

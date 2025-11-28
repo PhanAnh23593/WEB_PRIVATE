@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid
+}
+
+
+.item {
+    background-color: blue;
+    display: flex;
+   align-item: center;
+   justify-content:center;
+   border: 1px solid black;
+   
+}
