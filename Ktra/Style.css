@@ -1,0 +1,617 @@
+/* --- Cài đặt chung (Reset) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+.content_header{
+    background-image: url("coffee_image.png");
+    height: 100vh ;
+    background-size:cover;
+    background-position:center ;
+}
+
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+
+}
+
+
+.logo1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.menu1 {
+    display: flex;
+    gap: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+.menu1 li a:hover{
+    color: rgb(229, 155, 8);
+}
+
+
+.SignUp {
+    display: flex;
+    gap: 10px;
+
+}
+
+.SignUp button {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    color: white;
+}
+
+
+.btnsignin {
+    background-color: transparent;
+}
+.btnsignin:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.btnsignup {
+    background-color: rgb(255, 226, 9);
+}
+
+.btnsignup:hover {
+    background-color: white;
+    color: black;
+}
+
+.content1{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+
+.ct1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.ct1 .title img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+   width: 600px;
+}
+
+
+.ct1 p {
+    font-family:'Times New Roman', Times, serif;
+    max-width: 600px;
+    font-size: 20PX;
+    margin-bottom: 15px;
+}
+.ct1 button{
+    background-color:#f8bd79;
+    color: aliceblue;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px 30px;
+    margin-top:0px;
+    transition: all 0.3s ease;
+}
+
+.ct1 button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    background-color: aliceblue;
+    gap :  50px;    
+}
+
+
+.content2_1 h2 {
+    color: rgb(178, 158, 24);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 20px ;
+}
+.content2_1 p{
+    color: rgb(37, 35, 35);
+    line-height: 1.8;
+}
+
+
+
+.content2_1 button{
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ffb157;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+
+.content2_1 button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.content2_2 {
+    width: 50%; 
+}
+
+
+.content2_2 img{
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+}
+
+
+
+
+.content3{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_ct3 {
+    margin-bottom: 50px;
+}
+
+.title_ct3 h2 {
+    font-size: 2.5rem;
+    color: rgb(54, 18, 18);
+}
+.title_ct3 p{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Qualityct3{
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-bottom: 50px; 
+    
+      gap:20px
+}
+
+.Qualityct3 li{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px!important;
+}
+
+
+
+.Qualityct3 li:hover  {
+    transform: translate(-10px);
+    box-shadow: 0 5px 5px black;
+}
+
+
+.Qualityct3 img {
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.Qualityct3 h2 {
+    font-size: 1.2rem;
+    color: rgb(54, 18, 18);
+    margin-bottom: 10px;
+}
+
+
+.Qualityct3 li button{
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ffb157;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.Qualityct3 li button:hover{
+    background-color: #eee;
+    color: #000000;
+}
+
+.content4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_ct4 {
+    margin-bottom: 50px;
+}
+
+.title_ct4 h2 {
+    font-size: 2.5rem;
+    color: rgb(54, 18, 18);
+}
+.title_ct4 p{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Quality1{
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-bottom: 30px; 
+      gap:50px;
+}
+
+
+.Cardct41 {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    background-color: rgb(200, 110, 130);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px black;
+    padding: 10px 30px;
+    height: 100%; 
+}
+
+ .cardct42, .cardct43, .cardct44{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 25px;
+        background-color: rgb(255, 224, 231);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px black;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+
+
+.Quality1 li:hover div {
+    transform: translate(-10px);
+    box-shadow: 0 15px 20px black;
+}
+
+
+.Quality1 img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.Quality1 h2 {
+    font-size: 1.2rem;
+    color: rgb(54, 18, 18);
+    margin-bottom: 10px;
+}
+
+
+.cardct45 {
+    color: white;
+    padding: 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.cardct45 p {
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.cardct45 h2 {
+    font-size: 2.5rem;
+    color: #E98F45;
+}
+
+.Join {
+     font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ffb157;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.Join:hover {
+    background-color: #f0d7c4;
+    color: rgb(8, 5, 5);
+}
+
+
+.content5 {
+    background-image:url("Group\ 36.png");
+    background-size: cover;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    background-color: aliceblue;
+    gap :  50px;    
+}
+
+
+
+.content5_ct1 h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 20px ;
+}
+.content5_ct1 p{
+    font-size: 20px;
+    font-weight: 400  ;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;   
+}
+
+
+
+.content5_ct1 button{   
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ffb157;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+
+.content5_ct1 button:hover{
+    background-color: aliceblue;
+    color: black;
+}   
+
+
+.content5_ct2 img {
+    border-radius: 20px;
+   
+}
+
+.content6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content6_tiltle {
+    margin-bottom: 50px;
+}
+
+.content6_tiltle h2 {
+    font-size: 2.5rem;
+    color: rgb(54, 18, 18);
+}
+.content6_tiltle p{
+    display: flex;
+    justify-content: center;
+}
+
+.content6_ct1{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding: 860x 10%;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 60px;
+    background-color: rgb(231, 177, 231);
+}
+
+.content6_ct1 .p1{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+       line-height: 1.8;
+    
+    
+} 
+
+.content6_ct1_1_2 h2 {
+    font-size: 2.5rem;
+    color: rgb(54, 18, 18);
+    margin-top: 50px;
+}
+.content6_ct1_1_2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content6_ct1_1_2 .img1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+.content7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content7_ct1{
+    background-image: url("Group\ 36.png");
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content7_ct1_title {
+    margin-bottom: 50px;
+}
+
+.content7_ct1_title h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.content7_ct1_title p{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.content7_ct1_Subscribe{
+    font-size: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: #000000;
+}
+.content7_ct1_Subscribe input{}
+
+.content6_ct1 .p1{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+       line-height: 1.8;
+    
+    
+} 
+
+.content6_ct1_1_2 h2 {
+    font-size: 2.5rem;
+    color: rgb(54, 18, 18);
+    margin-top: 50px;
+}
+.content6_ct1_1_2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content6_ct1_1_2 .img1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.content7_ct2{
+    display: grid;
+      grid-template-columns: 2fr 1fr 1fr 2fr;
+      margin-bottom: 50px; 
+      background-image: url("fotter_image.png");
+      gap:20px;
+      background-color:#592e06c6 ;
+}
+
+.content7_ct2 li{
+     font-family:;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px!important;
+    font-weight: 500;
+}
+
+.content7_ct2 h2 {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.content7_ct2 li{
+    color: white;
+ 
+}
+
+.content7_ct2_1 p {
+    margin-top: 30px;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  gap:30px; 
+  margin-top: 22px;
+}
+
+.icon button{
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    border:none;
+    justify-content: center;    
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    box-shadow:0 0 10px rgba(18, 3, 3, 0.3);
+}

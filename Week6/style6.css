@@ -7,14 +7,13 @@
 
 .container {
     display: grid;
-    grid
 }
 
 
 .item {
     background-color: blue;
     display: flex;
-   align-item: center;
+
    justify-content:center;
    border: 1px solid black;
    
