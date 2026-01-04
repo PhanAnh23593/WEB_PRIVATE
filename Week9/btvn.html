@@ -10,14 +10,17 @@
 
     <div class="container">
         <h2>Nhập điểm sinh viên</h2>
+        
         <input type="text" id="nameInput" placeholder="Nhập tên sinh viên...">
+        
         <input type="number" id="scoreInput" placeholder="Điểm số (0-10)..." min="0" max="10">
-        <button onclick="addStudent()">Thêm vào danh sách</button>
-        <div class="list-header">DANH SÁCH LỚP</div>
-        <ul id="student-list">
-            </ul>
-    </div>
+        
+        <button id="addBtn">Thêm vào danh sách</button>
 
-    <script src="btvn.js"></script>
+        <div class="label-list">DANH SÁCH LỚP</div>
+        
+        <ul id="studentList"></ul>
+    </div>
+    <script src="btvn.js" ></script>
 </body>
 </html>
