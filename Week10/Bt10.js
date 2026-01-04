@@ -2125,6 +2125,7 @@ const list_store = [
   }
 ];
 const container = document.getElementById("store_container");
+const searchInput = document.getElementById("searchInput"); 
 
 
 let list_ = "";
